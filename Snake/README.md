@@ -1,5 +1,5 @@
 ## To play this amazing game
-1- Directly from Docker 
+### Directly from Docker 
 - Run the below command in terminal
 ```
 docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
@@ -7,7 +7,7 @@ docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
 then browse to  _**`http://localhost:31`**_
 <hr>
 
-2- Use the source codes
+### Use the source codes
 - clone this repo 
 - change the directory into **Tetris**
 - `docker build -t gametetris .`
@@ -19,8 +19,8 @@ then browse to  _**`http://localhost:31`**_
 ### Credits
 Kudos & please do checkout his works [jake](https://github.com/jakesgordon/javascript-snakes)
 
-License
-=======
+## License
+
 
 [MIT](http://en.wikipedia.org/wiki/MIT_License) license.
 
