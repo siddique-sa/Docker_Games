@@ -1,13 +1,13 @@
 ## To play this amazing game
-1 - Directly from Docker 
-    - Rub the below command in terminal
+1- Directly from Docker 
+- Run the below command in terminal
 ```
 docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
 ```
 then browse to  _**`http://localhost:31`**_
 <hr>
 
-- Use the source codes
+2- Use the source codes
 - clone this repo 
 - change the directory into **Tetris**
 - `docker build -t gametetris .`
