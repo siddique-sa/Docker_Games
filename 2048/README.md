@@ -2,9 +2,9 @@
 ### Directly from Docker 
 - Run the below command in terminal
 ```
-docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
+docker run -it --rm --init -p 30:3000 siddiquesa/dockergames:games2048
 ```
-then browse to  _**`http://localhost:31`**_
+then browse to  _**`http://localhost:30`**_
 <hr>
 
 ### Using source codes
