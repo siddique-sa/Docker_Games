@@ -7,7 +7,7 @@ docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
 then browse to  _**`http://localhost:31`**_
 <hr>
 
-### using source codes
+### Using source codes
 
 - clone this repo 
 - change the directory into **2048**
