@@ -2,20 +2,22 @@
 1 - Directly from Docker 
     - Rub the below command in terminal
 ```
-docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gametsnake
+docker run -it --rm --init -p 31:3000 siddiquesa/dockergames:gamesnake
 ```
-    - then browse to _**`http://localhost:31`**_
+then browse to  _**`http://localhost:31`**_
 <hr>
-2- Use the source codes 
-    - clone this repo 
-    - change the directory into **Tetris**
-    - `docker build -t gametetris .`
-    - `docker run -it --rm --init -p 31:3000 gametetris`
-    - then browse to _**`http://localhost:31`**_
+
+- Use the source codes
+- clone this repo 
+- change the directory into **Tetris**
+- `docker build -t gametetris .`
+- `docker run -it --rm --init -p 31:3000 gametetris`
+- then browse to _**`http://localhost:31`**_
+
 <hr>
 
 ### Credits
-Kudos to his & please do checkout his works [jake](https://github.com/jakesgordon/javascript-snakes)
+Kudos & please do checkout his works [jake](https://github.com/jakesgordon/javascript-snakes)
 
 License
 =======
